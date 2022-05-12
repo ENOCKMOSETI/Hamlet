@@ -4,10 +4,28 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const TODOS = [
+  {
+    id: 1,
+    name: 'Wake up',
+    completed: true
+  },
+  {
+    id: 2,
+    name: 'Read Shakespeare',
+    completed: false
+  },
+  {
+    id: 3,
+    name: 'Do todo',
+    completed: false
+  },
+]
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App tasks={TODOS} />
   </React.StrictMode>
 );
 
