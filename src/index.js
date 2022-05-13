@@ -13,11 +13,11 @@ const TODOS = [
   {
     id: 2,
     name: 'Read Shakespeare',
-    completed: false
+    completed: true
   },
   {
     id: 3,
-    name: 'Do todo',
+    name: 'Style this app',
     completed: false
   },
 ]

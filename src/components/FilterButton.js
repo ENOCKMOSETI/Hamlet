@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function FilterButton() {
+export default function FilterButton(props) {
     return (
-        <div className='filters'>
-            <button>All</button>
-            <button>Done</button>
-            <button>Procrastinated</button>
-        </div>
+            <button 
+                type="button" 
+                onClick={() => props.setFilter(props.name)}
+            >
+                {props.name}
+            </button>
     );
 }
