@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hamlet/static/css/main.273e0d9b.css",
+    "main.js": "/Hamlet/static/js/main.d3a3323b.js",
+    "static/js/787.966ef51e.chunk.js": "/Hamlet/static/js/787.966ef51e.chunk.js",
+    "index.html": "/Hamlet/index.html",
+    "main.273e0d9b.css.map": "/Hamlet/static/css/main.273e0d9b.css.map",
+    "main.d3a3323b.js.map": "/Hamlet/static/js/main.d3a3323b.js.map",
+    "787.966ef51e.chunk.js.map": "/Hamlet/static/js/787.966ef51e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.273e0d9b.css",
+    "static/js/main.d3a3323b.js"
+  ]
+}
